@@ -181,6 +181,13 @@ body {
     display: none;
 }
 
+.shoe {
+    display: none;
+}
+
+.shoe.show {
+    display: block;
+}
 @media screen and (max-width: 981px) {
     .projets {
         grid-template-columns: repeat(1, 332px);

@@ -12,7 +12,7 @@ filterContainer.addEventListener("click", (e) => {
 
         galleryItems.forEach((item) => {
 
-            if (item.classList.contains(filterValue) || filterValue === 'projet') {
+            if (item.classList.contains(filterValue)) {
                 item.classList.remove("hide");
                 item.classList.add("show");
             }
